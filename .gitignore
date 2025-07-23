@@ -1,0 +1,31 @@
+# Добавьте это в .gitignore после создания
+
+# Environment
+.env
+
+# Binaries
+/wishlist-backend
+*.exe
+*.test
+
+# Dependency directories
+vendor/
+
+# Development artifacts
+*.log
+*.prof
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go workspace
+go.work
+go.sum
+
+# Database files
+*.db
+*.sqlite
